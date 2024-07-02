@@ -1,0 +1,7 @@
+https://community.cloudflare.com/t/community-tip-fixing-err-too-many-redirects/42335
+
+
+
+curl -ksvo /dev/null http://website --connect-to ::199.36.158.100 2>&1 | egrep -i "< location|< http"
+< HTTP/1.1 301 Moved Permanently
+
