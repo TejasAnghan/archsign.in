@@ -1,4 +1,3 @@
-import 'package:folio/animations/entrance_fader.dart';
 import 'package:folio/configs/app.dart';
 import 'package:folio/configs/configs.dart';
 import 'package:folio/provider/app_provider.dart';
@@ -12,7 +11,6 @@ import 'package:folio/widget/navbar_actions_button.dart';
 import 'package:folio/widget/navbar_logo.dart';
 import 'package:provider/provider.dart';
 
-import 'package:universal_html/html.dart' as html;
 import 'package:flutter/material.dart';
 import 'package:folio/widget/arrow_on_top.dart';
 
@@ -28,17 +26,11 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
-  @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-  }
+  
 
   @override
   void didChangeDependencies() {
-    // TODO: implement didChangeDependencies
     _precacheImage();
-
     super.didChangeDependencies();
   }
 

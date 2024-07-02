@@ -4,6 +4,7 @@ import 'package:folio/sections/home/home_desktop.dart';
 // import 'package:folio/sections/home/home_mobile.dart';
 // import 'package:folio/sections/home/home_tab.dart';
 
+// ignore: camel_case_types
 enum device { isMobile, istablate, isDesktop }
 
 class HomePage extends StatelessWidget {

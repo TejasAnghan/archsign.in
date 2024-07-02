@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:folio/configs/configs.dart';
-import 'package:folio/constants.dart';
 import 'package:folio/responsive/responsive.dart';
 import 'package:folio/utils/about_utils.dart';
 
 import 'package:folio/utils/utils.dart';
 import 'package:folio/widget/custom_text_heading.dart';
-import 'package:folio/widget/tech_widget.dart';
 
 class AboutDesktop extends StatelessWidget {
   const AboutDesktop({Key? key}) : super(key: key);

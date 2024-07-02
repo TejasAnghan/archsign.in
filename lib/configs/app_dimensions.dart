@@ -51,6 +51,7 @@ class AppDimensions {
 
   static String inString() {
     final x = UI.width! / UI.height!;
+    // ignore: deprecated_member_use
     final ps = ui.window.physicalSize;
     return """
       Width: ${UI.width} | ${ps.width}

@@ -174,7 +174,6 @@ class ProjectCardState extends State<ProjectCard> {
                           },
                           errorBuilder: (BuildContext context, Object error,
                               StackTrace? stackTrace) {
-                            print(stackTrace.toString());
                             return const Text('Failed to load image');
                           },
                           // fit: BoxFit.contain,

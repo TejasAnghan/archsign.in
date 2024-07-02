@@ -89,7 +89,7 @@ class _ProjectDetailState extends State<ProjectDetail> {
               }
             }, errorBuilder: (BuildContext context, Object error,
                     StackTrace? stackTrace) {
-              return Text('Failed to load image');
+              return const Text('Failed to load image');
             }),
           ),
           options: CarouselOptions(
@@ -175,7 +175,6 @@ class _ProjectDetailState extends State<ProjectDetail> {
   @override
   Widget build(BuildContext context) {
     double height = MediaQuery.of(context).size.height;
-    double width = MediaQuery.of(context).size.width;
 
     return Container(
       padding: Space.h,
