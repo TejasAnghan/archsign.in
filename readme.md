@@ -1,2 +1,1 @@
-![Demo of Archsign.in](demo/archsign.gif)
-
+![Demo of Archsign.in](/Demo/archsign.gif)
